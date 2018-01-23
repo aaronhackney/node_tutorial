@@ -4,7 +4,7 @@ This is my version of the node tutorial found at https://www.raywenderlich.com/6
 
 Note that I changed a few things for modern versions of the libraries.
 
-#Some sample CRUD items:
+# Some sample CRUD items:
 
 ## (C)reate Operation
 curl -H "Content-Type: application/json" -X POST -d '{"title":"Hello World"}' http://localhost:3000/items
