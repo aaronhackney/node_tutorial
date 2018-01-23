@@ -13,7 +13,7 @@ curl -H "Content-Type: application/json" -X POST -d '{"title":"Hello World"}' ht
 curl http://localhost:3000/items/5a66a40fb88bca25e2f5005c
 
 ## (U)pdate Operation
-curl -vvv -H "Content-Type: application/json" -X PUT -d '{"title":"Good Golly Miss Molly Next!"}' http://localhost:3000/items/5a66a40fb88bca25e2f5005c
+curl -H "Content-Type: application/json" -X PUT -d '{"title":"Good Golly Miss Molly Next!"}' http://localhost:3000/items/5a66a40fb88bca25e2f5005c
 
 ## (D)elete Operation
 curl -H "Content-Type: application/json" -X DELETE  http://localhost:3000/items/5a66a40fb88bca25e2f5005c
